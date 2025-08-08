@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap");
+
+:root {
+   --col-yellow: hsl(47, 88%, 63%);
+   --col-white: hsl(0, 0%, 100%);
+   --col-gray: hsl(0, 0%, 42%);
+   --col-black: hsl(0, 0%, 7%);
+   }
+
+body {
+   background-color: var(--col-yellow);
+   font-size: 16px;
+   font-family: "Figtree", sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   font-weight: 500;
+}
+
+.card {
+   max-width: 315px;
+   background-color: var(--col-white);
+   border: 2px solid var(--col-black);
+   border-radius: 20px;
+   padding: 22px;
+   margin: 0px 20px;
+   box-shadow: 8px 8px 0px var(--col-black);
+}
+
+.card:hover {
+   box-shadow: 12px 11px 0px var(--col-black);
+   border: 3px solid var(--col-black);
+}
+
+.learn {
+   display: inline-block;
+   padding: 5px 14px;
+   border-radius: 5px;
+   margin-bottom: 0px;
+   background-color: var(--col-yellow);
+}
+
+.learn:hover {
+   color: var(--col-yellow);
+   background-color: var(--col-black);
+}
+
+h3:hover {
+   color: var(--col-yellow);
+}
+
+.p2 {
+   color: var(--col-gray);
+}
+
+.avtor {
+   display: flex;
+   align-items: center;
+   gap: 14px;
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
+footer {
+   margin-top: 10px;
+}
